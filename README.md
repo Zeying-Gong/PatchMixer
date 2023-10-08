@@ -32,6 +32,26 @@ In principle, the large receptive field is beneficial for improving performance,
 
 ![alt text](https://github.com/Zeying-Gong/PatchMixer/raw/main/pic/vary_lookback.png)
 
+## Acknowledgement
+
+We appreciate the following GitHub repo very much for the valuable code base and datasets:
+
+https://github.com/yuqinie98/PatchTST
+
+https://github.com/wanghq21/MICN
+
+https://github.com/thuml/TimesNet
+
+https://github.com/cure-lab/LTSF-Linear
+
+https://github.com/zhouhaoyi/Informer2020
+
+https://github.com/thuml/Autoformer
+
+https://github.com/MAZiqing/FEDformer
+
+https://github.com/ts-kim/RevIN
+
 ## Contact
 
 If you have any questions or concerns, please submit an issue on GitHub. For matters that require more direct communication, you can also email us at [zgong313@connect.hkust-gz.edu.cn](mailto:zgong313@connect.hkust-gz.edu.cn). However, we kindly encourage the use of issues for better transparency and tracking.
