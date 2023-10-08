@@ -34,7 +34,7 @@ In principle, the large receptive field is beneficial for improving performance,
 
 ## Contact
 
-If you have any questions or concerns, please submit an issue on GitHub. For matters that require more direct communication, you can also email us at [zgong313@connect.hkust-gz.edu.cn](mailto:zgong313@connect.hkust-gz.edu.cn), but we strongly prefer the use of issues for transparency and tracking.
+If you have any questions or concerns, please submit an issue on GitHub. For matters that require more direct communication, you can also email us at [zgong313@connect.hkust-gz.edu.cn](mailto:zgong313@connect.hkust-gz.edu.cn). However, we kindly encourage the use of issues for better transparency and tracking.
 
 ## Citation
 
