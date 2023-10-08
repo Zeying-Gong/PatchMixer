@@ -14,7 +14,7 @@ PatchMixer is primarily composed of two convolutional layers and two forecasting
 
 ## Results
 
-### 🏆 Achieve state-of-the-art in Long-Term Time series Forecasting**.
+### 🏆 Achieve state-of-the-art in Long-Term Time series Forecasting.
 
 Quantitatively, PatchMixer demonstrates an overall relative reduction of $\mathbf{3.9\%}$ on MSE and $\mathbf{3.0\%}$ on MAE in comparison to the state-of-the-art Transformer (PatchTST). When evaluated against the best-performing MLP-based model (DLinear), our model showcases an overall decline of $\mathbf{11.6\%}$ on MSE and $\mathbf{9.4\%}$ on MAE. Moreover, in comparison to the achievable outcomes with the best CNN-based model (TimesNet), we demonstrate a remarkable overall relative reduction of $\mathbf{21.2\%}$ on MSE and $\mathbf{12.5\%}$ on MAE.
 
