@@ -4,13 +4,29 @@
 
 This is the official implementation of PatchMixer: [PatchMixer: A Patch-Mixing Architecture for Long-Term Time Series Forecasting](https://arxiv.org/abs/2310.00655). 
 
-**As the paper is under review, the full source code is expected to be released upon conference acceptance.**
-
 ## Model Overview 
 
-![alt text](https://github.com/Zeying-Gong/PatchMixer/raw/main/pic/PatchMixer_0928.png)
+![alt text](https://github.com/Zeying-Gong/PatchMixer/raw/main/pic/PatchMixer.png)
 
 PatchMixer is primarily composed of two convolutional layers and two forecasting heads. Its distinguishing feature is the “patch-mixing” design, which means the model initially segments the input time series into smaller temporal patches and subsequently integrates information from both within and between these patches.
+
+## Getting Started
+
+1. Install requirements. 
+
+```
+pip install -r requirements.txt
+```
+
+2. Download data. You can download all the datasets from [Autoformer](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy). Create a seperate folder ```./dataset``` and put all the csv files in the directory.
+
+3. Training. All the scripts are in the directory ```./scripts/PatchMixer```. For example, if you want to get the multivariate forecasting results for weather dataset, just run the following command, and you can open ```./result.txt``` to see the results once the training is done, log file is in ```./logs/LongForecasting/*.log```:
+
+```
+sh ./scripts/PatchMixer/weather.sh
+```
+
+You can also add ```--use_multi_gpu``` for multi-gpu training. The hyperparameters can be adjusted as your needs (e.g. different patch length, different sequence lengths and prediction lengths.). We also provide codes for the baseline models.
 
 ## Results
 
