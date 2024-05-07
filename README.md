@@ -6,7 +6,7 @@ This is the official implementation of PatchMixer: [PatchMixer: A Patch-Mixing A
 
 ## Model Overview 
 
-![alt text](https://github.com/Zeying-Gong/PatchMixer/raw/main/pic/PatchMixer.png)
+![alt text](https://github.com/Zeying-Gong/PatchMixer/raw/main/pic/PatchMixer.jpg)
 
 PatchMixer is primarily composed of two convolutional layers and two forecasting heads. Its distinguishing feature is the “patch-mixing” design, which means the model initially segments the input time series into smaller temporal patches and subsequently integrates information from both within and between these patches.
 
